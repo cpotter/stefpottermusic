@@ -1,0 +1,185 @@
+.ui.form.error .error.message{
+  font-family: "Helvetica Neue", "Helvetica", "Arial" !important;
+}
+.page {
+  font-family: 'Euphoria Script', cursive;
+  font-size: 1em;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #6D6969;
+}
+body{
+  font-family: 'Euphoria Script', cursive;
+  background-color: dimgrey;
+}
+
+.page-banner{
+  text-align: center;
+  margin: 0 auto auto auto;
+}
+
+div.content {
+  width: 100%;
+  background-color: ghostwhite;
+  font-family: 'Lato', sans-serif;
+}
+ul.content {
+  width: 100%;
+  background-color: ghostwhite;
+  font-family: 'Lato', sans-serif;
+}
+
+.masthead.segment{
+  background-color: blue;
+  background-size: cover;
+  margin: 0em;
+  padding-top: 4rem;
+  overflow: hidden;
+  -webkit-box-shadow: 0 -20px 10px 0 rgba(0, 0, 0, 0.1) inset !important;
+  box-shadow: 0 -20px 10px 0 rgba(0, 0, 0, 0.1) inset !important;
+  position:relative;
+}
+img.banner-image{
+  position: initial !important;
+  width: 100%;
+  max-width: 4927px;
+}
+
+.page-banner{
+  top: 33%;
+  left: 8%;
+  position:absolute;
+}
+div.banner{
+position:relative;
+}
+div.page-items{
+  text-align: center;
+  margin: 0 auto auto auto !important;
+}
+.social-media{
+  position: absolute;
+}
+.social-media > div{
+  display:inline;
+  max-width: 5%;
+}
+.social-media-icon{
+  min-width:24px;
+  width: 5%;
+}
+@media only screen and (max-width: 768px) {
+
+  .ui.two.items{
+    margin-right: 2% !important;
+  }
+  .desktop-stef{
+    display: none;
+  }
+  .page-banner{
+    top: 13%;
+  }
+  .desktop-player{
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .mobile-stef{
+    display: none !important;
+  }
+  .mobile-player{
+    display: none !important;
+  }
+}
+.sliders{
+  position: relative;
+}
+.slider-header{
+  position: absolute;
+  top: 0px;
+  left: 3%;
+  z-index: 3;
+  text-align: center;
+}
+div.item.content > div > div:nth-child(2){
+  width:100%;
+}
+#mc_embed_signup{
+  width:50%;
+  margin: 0px auto 1%;
+}
+.mobile-player{
+  display:none;
+}
+.music{
+  width: 100%;
+}
+div.buffer{
+  margin-bottom:1%;
+}
+div.upperbuffer{
+  margin-top: 1%;
+}
+.signup{
+  width: 85%;
+}
+.slides > li{
+  display:none;
+}
+.slides > li:first-child{
+  display:block;
+}
+.slides img:hover {
+  border: 1px #CCBD82 solid; //Change to other color
+}
+.bio{
+  font-family: 'Lato', sans-serif;
+/*
+  font-family: "Helvetica Neue", "Helvetica", "Arial" !important;
+*/
+  color: #CCBD82;
+  font-size: x-large;
+}
+
+.bio2{
+  color: #CCBD82;
+  font-size: xx-large;
+}
+.topbuff{
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+.modal{
+  background-color: rgba(255, 215, 0, 0.59) !important;
+  font-size: x-large;
+}
+.quotes{
+  text-align: center;
+  width: 100%;
+}
+.bandsintowntext{
+  font-family: 'Lato', sans-serif;
+}
+.quoteperson{
+  font-weight: bold;
+  font-style: italic;
+}
+.quote{
+  color: #D94D4D;
+}
+.content > p{
+margin-top: 0%;
+}
+ul.content{
+  margin-top: 0%;
+}
+.button.played{
+
+.button.played{
+  font-family: 'Lato', sans-serif;
+  margin: 0 auto;
+ }
+.presshead{
+  font-family: 'Euphoria Script', cursive;
+}
+
