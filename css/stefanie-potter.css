@@ -12,7 +12,11 @@ body{
   font-family: 'Euphoria Script', cursive;
   background-color: dimgrey;
 }
-
+.phone-number{
+  position: absolute;
+  top: 91%;
+  left: 5%;
+}
 .page-banner{
   text-align: center;
   margin: 0 auto auto auto;
