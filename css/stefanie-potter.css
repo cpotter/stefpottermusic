@@ -173,6 +173,7 @@ div.upperbuffer{
 }
 .content > p{
 margin-top: 0%;
+line-height: 1 !important;
 }
 ul.content{
   margin-top: 0%;
