@@ -1,6 +1,11 @@
 .ui.form.error .error.message{
   font-family: "Helvetica Neue", "Helvetica", "Arial" !important;
 }
+
+.ui.down.button.played.buffer.bio {
+margin-bottom: 25px;
+margin-top: 10px;
+}
 .page {
   font-family: 'Euphoria Script', cursive;
   font-size: 1em;
@@ -165,11 +170,12 @@ div.upperbuffer{
   font-family: 'Lato', sans-serif;
 }
 .quoteperson{
-  font-weight: bold;
+  color: black;
   font-style: italic;
 }
 .quote{
-  color: #D94D4D;
+  color: #CCBD82;
+  font-weight: bold;
 }
 .content > p{
 margin-top: 0%;
@@ -187,4 +193,3 @@ ul.content{
 .presshead{
   font-family: 'Euphoria Script', cursive;
 }
-
