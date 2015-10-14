@@ -124,10 +124,10 @@ div.item.content > div > div:nth-child(2){
   width: 100%;
 }
 div.buffer{
-  margin-bottom:1%;
+  margin-bottom:1% !important;
 }
 div.upperbuffer{
-  margin-top: 1%;
+  margin-top: 1% !important;
 }
 .signup{
   width: 85%;
@@ -184,7 +184,6 @@ line-height: 1 !important;
 ul.content{
   margin-top: 0%;
 }
-.button.played{
 
 .button.played{
   font-family: 'Lato', sans-serif;
@@ -192,4 +191,7 @@ ul.content{
  }
 .presshead{
   font-family: 'Euphoria Script', cursive;
+}
+.bottomslides{
+  padding: 10px 0 10px 0 !important;
 }
