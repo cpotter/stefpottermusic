@@ -9568,11 +9568,11 @@ a.ui.teal.label:hover:before {
   color: rgba(0, 0, 0, 0.7);
 }
 .ui.inverted.segment .inverted.segment {
-  color: #FFFFFF;
+  color: #eee6db;
 }
 .ui.inverted.segment,
 .ui.primary.inverted.segment {
-  background-color: #222222;
+  background-color: #dd932c;
   color: #FFFFFF;
 }
 /*-------------------
