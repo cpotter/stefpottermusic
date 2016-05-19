@@ -38,6 +38,10 @@ ul.content {
   font-family: 'Lato', sans-serif;
 }
 
+.bio.new-font{
+  color:#eee6db;
+}
+
 .masthead.segment{
   background-color: blue;
   background-size: cover;
@@ -96,6 +100,9 @@ div.page-items{
   }
   .desktop-player{
     display: none !important;
+  }
+  img.banner-image-2{
+    width:100%;
   }
 }
 @media only screen and (min-width: 769px) {
