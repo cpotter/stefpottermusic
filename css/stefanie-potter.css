@@ -6,6 +6,14 @@
 margin-bottom: 25px;
 margin-top: 10px;
 }
+.ui.modal > .header{
+  background-color: #dd932c;
+  color: #eee6db;
+}
+.ui.modal > .content{
+  background-color: #eee6db;
+  color: #dd932c;
+}
 .page {
   font-family: 'Euphoria Script', cursive;
   font-size: 1em;
@@ -43,13 +51,14 @@ ul.content {
 }
 
 .masthead.segment{
-  background-color: blue;
+  background-color: #eee6db;
   background-size: cover;
+  color: #eee6db;
   margin: 0em;
   padding-top: 4rem;
   overflow: hidden;
-  -webkit-box-shadow: 0 -20px 10px 0 rgba(0, 0, 0, 0.1) inset !important;
-  box-shadow: 0 -20px 10px 0 rgba(0, 0, 0, 0.1) inset !important;
+  /*-webkit-box-shadow: 0 -20px 10px 0 rgba(0, 0, 0, 0.1) inset !important;*/
+  /*box-shadow: 0 -20px 10px 0 rgba(0, 0, 0, 0.1) inset !important;*/
   position:relative;
 }
 img.banner-image{
@@ -63,7 +72,10 @@ img.banner-image-2{
   max-width: 4927px;
   float: left;
 }
-
+.middle-content{
+  float:right;
+  width: 60%;
+}
 .page-banner{
   top: 33%;
   left: 8%;
@@ -87,6 +99,10 @@ div.page-items{
   min-width:24px;
   width: 5%;
 }
+#mc_embed_signup{
+  width:50%;
+  margin: 0px auto 1%;
+}
 @media only screen and (max-width: 768px) {
 
   .ui.two.items{
@@ -103,6 +119,12 @@ div.page-items{
   }
   img.banner-image-2{
     width:100%;
+  }
+  .middle-content{
+    width: 100%;
+  }
+  #mc_embed_signup{
+    width: 100%;
   }
 }
 @media only screen and (min-width: 769px) {
@@ -125,10 +147,6 @@ div.page-items{
 }
 div.item.content > div > div:nth-child(2){
   width:100%;
-}
-#mc_embed_signup{
-  width:50%;
-  margin: 0px auto 1%;
 }
 .mobile-player{
   display:none;
@@ -174,7 +192,7 @@ div.upperbuffer{
   margin-bottom: 2%;
 }
 .modal{
-  background-color: rgba(255, 215, 0, 0.59) !important;
+  background-color: #dd932c !important;
   font-size: x-large;
 }
 .quotes{
@@ -185,11 +203,11 @@ div.upperbuffer{
   font-family: 'Lato', sans-serif;
 }
 .quoteperson{
-  color: black;
+  color: tan;
   font-style: italic;
 }
 .quote{
-  color: #CCBD82;
+  color: #dd932c;
   font-weight: bold;
 }
 .content > p{
