@@ -99,10 +99,6 @@ div.page-items{
   min-width:24px;
   width: 5%;
 }
-#mc_embed_signup{
-  width:50%;
-  margin: 0px auto 1%;
-}
 @media only screen and (max-width: 768px) {
 
   .ui.two.items{
@@ -119,6 +115,7 @@ div.page-items{
   }
   img.banner-image-2{
     width:100%;
+    display: none !important;
   }
   .middle-content{
     width: 100%;
